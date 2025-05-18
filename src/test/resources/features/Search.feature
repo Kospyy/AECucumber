@@ -13,7 +13,7 @@ Feature: This feature will complete an automation form.
     And Verify that title is 'Automation Exercise - Signup'
     And Enter details
       |Mr|
-      |Password!1|
+      |Password|
       |06/09/2006|
     And Select checkbox 'Sign up for our newsletter!'
     And Select checkbox 'Receive special offers from our partners!'
