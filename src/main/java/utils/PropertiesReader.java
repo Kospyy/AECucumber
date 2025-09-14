@@ -13,9 +13,9 @@ public class PropertiesReader
         {
             properties.load(new FileInputStream("C:\\Users\\tyler.MSI\\IdeaProjects\\Cucumber\\src\\main\\resources\\runtime.properties"));
         }
-        catch (IOException e)
+        catch (IOException ioe)
         {
-            throw new RuntimeException(e);
+            throw new RuntimeException(ioe);
         }
     }
     static String getProperty(String key)

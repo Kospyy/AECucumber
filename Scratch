@@ -1,0 +1,16 @@
+signupPage.addressInformationForm(addressInfo.get(signupPage.FIRSTNAME),
+                                          addressInfo.get(signupPage.LASTNAME),
+                                          addressInfo.get(signupPage.COMPANY),
+                                          addressInfo.get(signupPage.ADDRESS),
+                                          addressInfo.get(signupPage.ADDRESS2),
+                                          addressInfo.get(signupPage.COUNTRY),
+                                          addressInfo.get(signupPage.STATE),
+                                          addressInfo.get(signupPage.CITY),
+                                          addressInfo.get(signupPage.ZIPCODE),
+                                          addressInfo.get(signupPage.MOBILENUMBER));#
+
+String firstName, String lastName, String company, String address1, String address2, String country, String state, String city, String zipcode, String mobileNumber
+
+
+"										Add to cart
+ 									"

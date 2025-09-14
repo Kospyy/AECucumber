@@ -12,8 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <selenium.version>4.31.0</selenium.version>
-    <cucumber.version>7.22.0</cucumber.version>
+    <selenium.version>4.34.0</selenium.version>
+    <cucumber.version>7.23.0</cucumber.version>
   </properties>
   <dependencies>
     <dependency>
@@ -60,6 +60,11 @@
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
       <version>${cucumber.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.17.0</version>
     </dependency>
   </dependencies>
 </project>

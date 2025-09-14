@@ -1,17 +1,9 @@
 package po;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-public class Common
+public class Common extends DriverManager
 {
-    private WebDriver webDriver;
-
-    public Common(WebDriver webDriver)
-    {
-        this.webDriver = webDriver;
-    }
-
     public void titleVisible(String title)
     {
         webDriver.getTitle().equals(By.partialLinkText(title));
@@ -33,5 +25,17 @@ public class Common
     {
         String labelText = "//label[text() = '" + label + "']";
         webDriver.findElement(By.xpath(labelText)).click();
+    }
+
+    public void sleep()
+    {
+        try
+        {
+            Thread.sleep(3000);
+        }
+        catch (InterruptedException ie)
+        {
+            throw new RuntimeException(ie);
+        }
     }
 }
